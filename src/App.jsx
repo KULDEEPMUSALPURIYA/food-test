@@ -4,6 +4,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Layout from './pages/Layout'
 import ProductView from './pages/productView'
 import CartPage from './pages/CartPage'
+import About from './pages/About'
+import Contect from './pages/Contect'
 
 
 export default function App() {
@@ -23,6 +25,14 @@ export default function App() {
         {
           path: "/cart-page",
           element: <CartPage/>
+        },
+        {
+          path:"/about",
+          element: <About />
+        },
+        {
+          path: "/contect",
+          element: <Contect />
         }
         
       ]

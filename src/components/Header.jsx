@@ -9,7 +9,7 @@ export default function Header() {
   const {cart} = useContext(context)
 
   return (
-    <header className="w-full bg-gradient-to-r fixed z-10 from-black to-gray-900 text-white shadow-md  ">
+    <header className="w-full bg-gradient-to-r fixed  z-10 from-black to-gray-900 text-white shadow-md  ">
       <div className="flex justify-between items-center py-4 px-6 md:px-20">
         
         {/* Logo */}
@@ -20,8 +20,8 @@ export default function Header() {
         {/* Nav Links (Desktop) */}
         <nav className="hidden lg:flex gap-10 font-semibold text-base">
           <Link to="/" className="text-yellow-500">HOME</Link>
-          <Link to="#" className="hover:text-yellow-500">MENU</Link>
-          <Link to="#" className="hover:text-yellow-500">ABOUT</Link>
+          <Link to="/contect" className="hover:text-yellow-500">CONTECT</Link>
+          <Link to="/about" className="hover:text-yellow-500">ABOUT</Link>
            <Link to="/cart-page" className="hover:text-yellow-500">  CART ({cart.length})</Link>
         </nav>
 

@@ -39,9 +39,9 @@ export default function Home() {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 px-6 py-10">
-        {/* Card 1 */}
-        <div className="bg-[#222831] rounded-xl p-8 text-white flex items-center justify-between space-x-6">
-          {/* Left Content */}
+     
+        <div className="bg-[#222831] rounded-xl p-8 text-white flex items-center justify-between space-x-6" data-aos="fade-right">
+        
           <div className="space-y-4">
             <h1 className="text-3xl font-bold italic">Tasty Thursdays</h1>
             <h6 className="text-2xl font-semibold">
@@ -52,19 +52,19 @@ export default function Home() {
             </button>
           </div>
 
-          {/* Right Image */}
+         
           <div className="border-2 border-yellow-500 rounded-full p-1">
             <img
-              src="/o1.jpg"
+              src="/o2.jpg"
               alt="Offer"
               className="rounded-full w-[165px] h-[165px] object-cover transition-transform duration-500 hover:scale-110 hover:rotate-3 "
             />
           </div>
         </div>
 
-        {/* Card 2 (extra example) */}
+ 
         <div className="bg-[#222831] rounded-xl p-8 text-white flex items-center justify-between space-x-6">
-          {/* Left Content */}
+     
           <div className="space-y-4">
             <h1 className="text-3xl font-bold italic">Tasty Thursdays</h1>
             <h6 className="text-2xl font-semibold">
@@ -75,7 +75,7 @@ export default function Home() {
             </button>
           </div>
 
-          {/* Right Image */}
+    
           <div className="border-2 border-yellow-500 rounded-full p-1">
             <img
               src="/o1.jpg"
@@ -87,12 +87,11 @@ export default function Home() {
       </div>
 
       <div className="text-center py-10">
-        {/* Heading */}
+ 
         <h1 className="italic text-3xl md:text-4xl font-sans font-bold mb-6">
           Our Menu
         </h1>
 
-        {/* Menu Tabs */}
         <div>
           <ul className="flex justify-center gap-6 md:gap-10 text-lg font-medium text-gray-700">
             <li className="cursor-pointer hover:text-amber-500 transition">
